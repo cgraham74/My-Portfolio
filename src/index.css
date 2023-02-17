@@ -26,7 +26,11 @@ body {
   color: var(--text-color);
  
 }
-
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -58,4 +62,15 @@ code {
 .hover-underline-animation:hover:after {
  transform: scaleX(1);
  transform-origin: bottom left;
+}
+.nav{
+display: flex;
+ justify-content: space-between;
+}
+.nav-items{
+display: flex;
+align-items: center;
+}
+.nav-items > li{
+  padding: 10px;
 }

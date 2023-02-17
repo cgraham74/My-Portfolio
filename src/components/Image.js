@@ -1,7 +1,12 @@
 import React from 'react';
 
-export const Image = (
-    <div>
+export function Image(){
+
+    
+    return (
+       <div>
         <img src="{project.image}" alt="{project.desc}"/>
-    </div>
-)
+    </div> 
+    )
+} 
+    

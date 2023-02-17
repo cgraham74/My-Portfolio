@@ -24,35 +24,6 @@
   color: white;
 }
 
-/* a.hover-underline-animation {
-  color: #61dafb;
-  text-decoration: none;
-}
-
-a.hover-underline-animation {
- display: inline-block;
- position: relative;
- color: var(--border-button-accent-color);
-}
-
-a.hover-underline-animation:after {
- content: '';
- position: absolute;
- width: 100%;
- transform: scaleX(0);
- height: 2px;
- bottom: 0;
- left: 0;
- background-color: var( --border-button-accent-color);
- transform-origin: bottom right;
- transition: var(--underline-transform);
-}
-
-a.hover-underline-animation:hover:after {
- transform: scaleX(1);
- transform-origin: bottom left;
-} */
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
