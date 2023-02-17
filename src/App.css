@@ -24,7 +24,7 @@
   color: white;
 }
 
-a.hover-underline-animation {
+/* a.hover-underline-animation {
   color: #61dafb;
   text-decoration: none;
 }
@@ -51,7 +51,7 @@ a.hover-underline-animation:after {
 a.hover-underline-animation:hover:after {
  transform: scaleX(1);
  transform-origin: bottom left;
-}
+} */
 
 @keyframes App-logo-spin {
   from {
