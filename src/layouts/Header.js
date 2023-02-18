@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
         <nav className="nav">
-      <h1 className="hover-underline-animation">Christina Graham</h1>
+      <h1 className="hover-underline-animation header-name">Christina Graham</h1>
       
       <ul className="nav-items">
         <li>
