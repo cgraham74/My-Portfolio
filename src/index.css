@@ -42,12 +42,9 @@ code {
 .hover-underline-animation {
   color: #61dafb;
   text-decoration: none;
-}
-
-.hover-underline-animation {
- display: inline-block;
- position: relative;
- color: var(--border-button-accent-color);
+  display: inline-block;
+  position: relative;
+  color: var(--border-button-accent-color);
 }
 
 .hover-underline-animation:after {
@@ -83,5 +80,4 @@ align-items: center;
  
   bottom: 0;
   width: 100%;
-
 }
