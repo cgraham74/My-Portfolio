@@ -1,14 +1,7 @@
-function project(title, description, skillsUsed, image, gitHubURL, demoURL) {
-    this.title = title;
-    this.description = description;
-    this.skillsUsed = skillsUsed;
-    this.image = image;
-    this.gitHubURL = gitHubURL;
-    this.demoURL = demoURL;
-}
 
-project = {
-    title:"",
+export const project = [
+    {
+    title:"Vending Machine",
     description: "",
     skillsUsed: [
 
@@ -16,4 +9,45 @@ project = {
     image: "",
     gitHub: "",
     demo: ""
-}
+},
+{
+    title:"TEnmo",
+    description: "",
+    skillsUsed: [
+
+    ],
+    image: "",
+    gitHub: "",
+    demo: ""
+},
+{
+    title:"Meal Planner",
+    description: "",
+    skillsUsed: [
+
+    ],
+    image: "",
+    gitHub: "",
+    demo: ""
+},
+{
+    title:"Math Practice",
+    description: "",
+    skillsUsed: [
+
+    ],
+    image: "",
+    gitHub: "",
+    demo: ""
+},
+{
+    title:"Password Generator",
+    description: "",
+    skillsUsed: [
+
+    ],
+    image: "",
+    gitHub: "",
+    demo: ""
+},
+]
