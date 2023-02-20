@@ -8,8 +8,7 @@ export default function Blog() {
     useEffect(() => {
       setPosts(postData);
     }, [posts]);
-
-  console.log({ posts });
+    
   return (
     <>
       <h2 className="blog-title">Blog</h2>

@@ -1,5 +1,4 @@
-
-export const project = [
+export const projectData = [
     {
     title:"Vending Machine",
     description: "",
@@ -7,7 +6,7 @@ export const project = [
 
     ],
     image: "",
-    gitHub: "",
+    gitHub: "'https://github.com/cgraham74/Capstone_VendingMachine'",
     demo: ""
 },
 {
@@ -50,4 +49,4 @@ export const project = [
     gitHub: "",
     demo: ""
 },
-]
+];
