@@ -10,7 +10,7 @@ export function ProjectCard({
 }) {
   return (
     <div className="project-card">
-      <h2>{title}</h2>
+      <h2 className="hover-underline-animation">{title}</h2>
       <p>{description}</p>
       <ul>{skillsUsed}</ul>
       <a href={gitHub}>{title}</a>

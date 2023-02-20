@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header>
+    <header className="nav-container">
         <nav className="nav">
       <h1 className="hover-underline-animation header-name">Christina Graham</h1>
       
