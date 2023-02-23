@@ -5,15 +5,17 @@
   --border-button-accent-color: #66fcf1;
   --button-text-color:black;
   --button-hover-color:#f78550;
-  --button-padding: 10px 35px 10px 35px;
-  --button-border-radius:100px;
+  --button-padding: .62em 2.19em .62em 2.19em;
+  --button-border-radius:6.25em;
   --project-text-color:white;
-  --project-card-container-padding: 60px;
+  --project-card-container-padding: 3.75em;
   --project-border-style: none;
   --project-border-width: 0px;
   --project-border-radius: 0px;
   --border-underline-animation: animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   --underline-transform:  transform 0.25s ease-out;
+   --font-size: 1em; /* 16 */
+  --header-nav-height:6.25em;
 }
 *{
   box-sizing: border-box;
@@ -28,7 +30,7 @@ body {
   background-color: var(--primary-background-dark-color);
   color: var(--text-color);
   text-align: center;
- 
+  font-size: var(--font-size);
 }
 ul{
   list-style-type: none;
@@ -52,7 +54,7 @@ code {
  position: absolute;
  width: 100%;
  transform: scaleX(0);
- height: 2px;
+ height: .125em;
  bottom: 0;
  left: 0;
  background-color: var( --border-button-accent-color);
@@ -67,6 +69,8 @@ code {
 .nav{
 display: flex;
 justify-content: space-between;
+padding: 1em;
+background-color: #031728;
 
 }
 .nav-items{
@@ -74,12 +78,13 @@ display: flex;
 align-items: center;
 }
 .nav-items > li, .header-name{
-  padding: 10px;
+  padding: .62em;
 }
 .nav-container{
 position: sticky;
 top: 0;
 background-color: #031728;
+
 }
 .footer{
   position: fixed;
