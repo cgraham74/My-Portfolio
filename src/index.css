@@ -17,7 +17,7 @@
    --font-size: 1rem; /* 16 */
   --header-nav-height:6.25rem;
 }
-*{
+*, *::before, *::after{
   box-sizing: border-box;
 }
 body {
@@ -81,6 +81,7 @@ align-items: center;
   padding: .62rem;
 }
 .nav-container{
+position: -webkit-sticky;
 position: sticky;
 top: 0;
 background-color: #031728;
